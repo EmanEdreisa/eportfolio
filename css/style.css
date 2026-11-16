@@ -469,6 +469,13 @@ h4 { font-size: 1rem; font-weight: 600; line-height: 1.4; }
 .awards h4 { font-size: .95rem; }
 .awards p { font-size: .85rem; color: var(--gray); }
 
+/* ---------- references ---------- */
+.refs .section-head { margin-bottom: var(--s4); }
+.refs__note {
+  font-family: var(--serif); font-style: italic; font-size: clamp(1.35rem, 3vw, 1.7rem);
+  color: var(--cream); max-width: 640px;
+}
+
 /* ---------- footer ---------- */
 .site-footer { padding-bottom: var(--s4); border-top: 1px solid rgba(184,146,74,.35); }
 .footer-top { display: grid; gap: var(--s5); padding-bottom: var(--s6); }
