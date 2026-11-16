@@ -18,7 +18,7 @@
 
   /* ---------- nav: active section ---------- */
   var navLinks = $$('.nav-links a, .mobile-menu__panel a');
-  var sectionIds = ["about", "resume", "work", "experience", "credentials", "references", "contact"];
+  var sectionIds = ["about", "resume", "work", "experience", "credentials", "contact"];
   var sections = sectionIds.map(function (id) { return document.getElementById(id); }).filter(Boolean);
 
   function setActive(id) {

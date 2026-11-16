@@ -10,10 +10,7 @@ A static, single-page portfolio (HTML, CSS and vanilla JS), served by GitHub Pag
 - `assets/docs/`: resume and certificate PDFs
 
 ## To fill in later
-Search `index.html` for `TODO`:
-- the three "View on GitHub" links (placeholder repository names)
-- references
-- testimonials
+Search `index.html` for `TODO`: the three "View on GitHub" links use placeholder repository names.
 
 ## Preview locally
 ```bash

@@ -460,18 +460,6 @@ h4 { font-size: 1rem; font-weight: 600; line-height: 1.4; }
 .awards h4 { font-size: .95rem; }
 .awards p { font-size: .85rem; color: var(--gray); }
 
-/* ---------- references ---------- */
-.ref-grid { display: grid; gap: var(--s3); }
-@media (min-width: 760px) { .ref-grid { grid-template-columns: 1fr 1fr; gap: var(--s4); } }
-.quiet-card {
-  border: 1px solid var(--line-dark); border-radius: var(--radius); padding: var(--s5) var(--s4);
-  transition: border-color .35s var(--ease);
-}
-.quiet-card:hover { border-color: rgba(184,146,74,.6); }
-.quiet-card h3 { font-size: 1.7rem; margin-bottom: var(--s2); }
-.quiet-card p { color: var(--muted-on-dark); }
-.quiet-card .text-link { margin-top: var(--s3); color: var(--white); }
-
 /* ---------- footer ---------- */
 .site-footer { padding-bottom: var(--s4); border-top: 1px solid rgba(184,146,74,.35); }
 .footer-top { display: grid; gap: var(--s5); padding-bottom: var(--s6); }
